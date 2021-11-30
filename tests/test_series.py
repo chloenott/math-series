@@ -34,3 +34,8 @@ def test_fib5():
     actual = fibonacci(5)
     expected = 5
     assert actual == expected
+
+def test_fib6():
+    actual = fibonacci(6)
+    expected = 8
+    assert actual == expected
