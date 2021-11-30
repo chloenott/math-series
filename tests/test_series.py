@@ -14,3 +14,8 @@ def test_fib0():
     actual = fibonacci(0)
     expected = 0
     assert actual == expected
+
+def test_fib2():
+    actual = fibonacci(2)
+    expected = 1
+    assert actual == expected
