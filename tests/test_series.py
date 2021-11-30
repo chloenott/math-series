@@ -1,5 +1,6 @@
 from math_series import __version__
 from math_series.series import fibonacci
+from math_series.series import lucas
 import pytest
 
 def test_version():
@@ -46,3 +47,8 @@ def test_fibMany():
         actual = fibonacci(i)
         expected = n_list[i]
         assert actual == expected
+
+def test_lucas1():
+    actual = lucas(1)
+    expected = 1
+    assert actual == expected
