@@ -9,3 +9,8 @@ def test_fib1():
     actual = fibonacci(1)
     expected = 1
     assert actual == expected
+
+def test_fib0():
+    actual = fibonacci(0)
+    expected = 0
+    assert actual == expected
