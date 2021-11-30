@@ -75,3 +75,8 @@ def test_sum_series_0_default_default():
     actual = sum_series(0)
     expected = fibonacci(0)
     assert actual == expected
+
+def test_sum_series_1_default_default():
+    actual = sum_series(1)
+    expected = fibonacci(1)
+    assert actual == expected
