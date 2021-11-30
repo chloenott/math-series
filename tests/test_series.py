@@ -105,3 +105,8 @@ def test_sum_series_20_2_1():
     actual = sum_series(20, 2, 1)
     expected = lucas(20)
     assert actual == expected
+
+def test_sum_series_20_0_1():
+    actual = sum_series(20, 0, 1)
+    expected = fibonacci(20)
+    assert actual == expected
