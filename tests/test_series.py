@@ -90,3 +90,8 @@ def test_sum_series_5_0_1():
     actual = sum_series(5, 0, 1)
     expected = fibonacci(5)
     assert actual == expected
+
+def test_sum_series_5_2_1():
+    actual = sum_series(5, 2, 1)
+    expected = lucas(5)
+    assert actual == expected
