@@ -135,3 +135,10 @@ def test_sum_series_4_3_5():
     actual = sum_series(4, 3, 5)
     expected = 21
     assert actual == expected
+
+def test_sum_seriesMany():
+    n_list = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+    for i in range(len(n_list)):
+        actual = sum_series(i)
+        expected = n_list[i]
+        assert actual == expected
