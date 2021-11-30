@@ -12,5 +12,5 @@ def lucas(n):
         return 1
     return lucas(n-1) + lucas(n-2)
 
-def sum_series(n):
+def sum_series(n, first = 0, second = 1):
     return fibonacci(n)
