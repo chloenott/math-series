@@ -95,3 +95,8 @@ def test_sum_series_5_2_1():
     actual = sum_series(5, 2, 1)
     expected = lucas(5)
     assert actual == expected
+
+def test_sum_series_7_2_1():
+    actual = sum_series(7, 2, 1)
+    expected = lucas(7)
+    assert actual == expected
