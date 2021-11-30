@@ -62,3 +62,10 @@ def test_lucas2():
     actual = lucas(2)
     expected = 3
     assert actual == expected
+
+def test_lucasMany():
+    n_list = [2, 1, 3, 4, 7, 11, 18, 29]
+    for i in range(len(n_list)):
+        actual = lucas(i)
+        expected = n_list[i]
+        assert actual == expected
